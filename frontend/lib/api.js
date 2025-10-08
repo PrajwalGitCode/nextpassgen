@@ -1,7 +1,5 @@
 const API_URL = "http://localhost:5000/api"; // backend URL
 
-// =================== AUTH ===================
-
 // Signup
 export async function signup(data) {
   try {

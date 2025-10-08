@@ -77,7 +77,7 @@ export default function LandingPage() {
     <div className="min-h-screen bg-[#0b0c10] flex items-center justify-center px-4 text-gray-200">
       <div className="w-full max-w-lg bg-[#131417] border border-[#00ffc6]/30 rounded-2xl p-8 shadow-[0_0_25px_rgba(0,255,198,0.05)]">
         <h1 className="text-3xl font-bold text-center mb-8 bg-gradient-to-r from-[#00ffc6] to-[#00b3ff] bg-clip-text text-transparent">
-          Password Generator & Vault Entry
+          Password Generator
         </h1>
 
         {/* Title */}

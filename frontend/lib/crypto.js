@@ -44,7 +44,7 @@ function base64ToArrayBuffer(base64) {
   return bytes.buffer;
 }
 
-// ✅ Encrypt (accepts 2 params)
+// Encrypt (accepts 2 params)
 export async function encryptData(password, plaintext) {
   const salt = crypto.getRandomValues(new Uint8Array(16));
   const iv = crypto.getRandomValues(new Uint8Array(12));
@@ -60,7 +60,7 @@ export async function encryptData(password, plaintext) {
   return arrayBufferToBase64(combined);
 }
 
-// ✅ Decrypt (also takes password)
+//  Decrypt (accepts 2 params)
 export async function decryptData(password, encryptedBase64) {
   const data = base64ToArrayBuffer(encryptedBase64);
   const bytes = new Uint8Array(data);
