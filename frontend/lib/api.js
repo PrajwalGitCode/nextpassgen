@@ -1,4 +1,4 @@
-const API_URL = "http://localhost:5000/api"; // backend URL
+const API_URL = "https://nextpassgen.onrender.com"; // backend URL
 
 // Signup
 export async function signup(data) {
